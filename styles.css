@@ -43,7 +43,7 @@ h1{
 }
 main div{
     width: 200px;
-    margin-left: 20px;
+    margin-left: 0px;
     display: inline-block;
 }
 main div img{
@@ -82,4 +82,14 @@ footer div article:last-child{
     width: 220px;
     text-align: justify;
 }
-
+aside i{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.fa-copyright{
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
