@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+
 html, body {
     height: 100%;
+}
+h1, h2, h3, h4{
+    font-family: 'Lobster', cursive;
+}
+p, i, input{
+    font-family: 'Roboto', sans-serif;
 }
 body {
     display: flex;
@@ -12,21 +20,34 @@ header{
     height: 5em;
 }
 header img{
-    height: 6em;
-    margin-left: 30%;
+    height: 8em;
+    margin-left: 32%;
 }
 header button:last-child{
-    margin-right: 80px;
+    margin-right: 32px;
     margin-top: 15px;
     float: right;
+    border: none;
+    background-color: white;
+}
+header button:last-child i{
+    font-size: 25px;
 }
 header button:first-child{
     margin-top: 15px;
     float: left;
+    background-color: black;
+    margin-left: 20px;
+}
+header button:first-child i{
+    font-size: 30px;
+    color: white;
 }
 header input{
     margin-top: 15px;
+    margin-left: 40px;
     float: left;
+    background-color: rgba(247, 246, 245, 0.5);
 }
 aside{
     display: flex;
@@ -37,13 +58,15 @@ aside a{
 }
 main{
     margin-left: 30px;
+    background-color: rgba(247, 246, 245, 0.5);
 }
 h1{
     text-align: center;
+    font-size: 40px;
 }
 main div{
     width: 200px;
-    margin-left: 20px;
+    margin-left: 25px;
     display: inline-block;
 }
 main div img{
@@ -60,7 +83,7 @@ footer div{
     margin-top: 30px;
 }
 footer div:first-child{
-    margin-left: 100px;
+    margin-left: 125px;
 }
 footer div:last-child{
     margin-right: 50px;
@@ -82,4 +105,17 @@ footer div article:last-child{
     width: 220px;
     text-align: justify;
 }
-
+footer div article:last-child p{
+    margin: 0;
+}
+aside i{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.fa-copyright{
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
