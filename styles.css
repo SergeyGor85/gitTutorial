@@ -105,6 +105,9 @@ footer div article:last-child{
     width: 220px;
     text-align: justify;
 }
+footer div article:last-child p{
+    margin: 0;
+}
 aside i{
     font-size: 40px;
     margin-top: 20px;
