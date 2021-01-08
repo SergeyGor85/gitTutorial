@@ -1,0 +1,137 @@
+@import "https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap";
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 40px;
+}
+h2 {
+  font-family: 'Lobster', cursive;
+}
+h3 {
+  font-family: 'Lobster', cursive;
+}
+h4 {
+  font-family: 'Lobster', cursive;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+}
+i {
+  font-family: 'Roboto', sans-serif;
+}
+input {
+  font-family: 'Roboto', sans-serif;
+}
+[role=main] {
+  display: flex;
+}
+header {
+  height: 5em;
+  img {
+    height: 8em;
+    margin-left: 32%;
+  }
+  button {
+    &:last-child {
+      margin-right: 32px;
+      margin-top: 15px;
+      float: right;
+      border: none;
+      background-color: white;
+      i {
+        font-size: 25px;
+      }
+    }
+    &:first-child {
+      margin-top: 15px;
+      float: left;
+      background-color: black;
+      margin-left: 20px;
+      i {
+        font-size: 30px;
+        color: white;
+      }
+    }
+  }
+  input {
+    margin-top: 15px;
+    margin-left: 40px;
+    float: left;
+    background-color: rgba(247, 246, 245, 0.5);
+  }
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  a {
+    margin-top: 30px;
+  }
+  i {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+}
+main {
+  margin-left: 30px;
+  background-color: rgba(247, 246, 245, 0.5);
+  div {
+    width: 200px;
+    margin-left: 25px;
+    display: inline-block;
+    img {
+      width: 200px;
+      height: 200px;
+      margin-top: 15px;
+    }
+  }
+}
+footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  div {
+    margin-top: 30px;
+    &:first-child {
+      margin-left: 125px;
+    }
+    &:last-child {
+      margin-right: 50px;
+    }
+    article {
+      &:first-child {
+        width: 300px;
+        text-align: justify;
+      }
+      &:last-child {
+        width: 220px;
+        text-align: justify;
+        p {
+          margin: 0;
+        }
+      }
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      i {
+        font-size: 30px;
+        margin-top: 10px;
+      }
+    }
+  }
+}
+.fa-copyright {
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
