@@ -8,7 +8,8 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    'semi': ['error', 'always'],
-    'quotes': ['error', 'single']
-  },
+    semi: ['error', 'always'],
+    quotes: ['error', 'single'],
+    'quote-props': ['error', 'as-needed']
+  }
 };
